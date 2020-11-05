@@ -30,7 +30,9 @@ export const useFetchGifs = ( category ) => {
 
             });
 
-    }, [])
+            console.log(category);
+            
+    }, [category])
 
     return state; // { data: [], loading: true }
 
