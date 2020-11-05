@@ -2,4 +2,4 @@
 
 Pequeña aplicación hecha en React con Hooks para buscar y mostrar gifs animados!
 
-enjoy ☜(ﾟヮﾟ☜)
+enjoy ༼ つ ◕_◕ ༽つ
