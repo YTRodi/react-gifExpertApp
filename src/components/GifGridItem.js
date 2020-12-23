@@ -1,8 +1,8 @@
 import React from 'react'
 
-const GifGridItem = ( { id, title, url } ) => {
+const GifGridItem = ( { title, url } ) => {
 
-    // console.log( id, title, url );
+    // props.title
     // console.log( { id, title, url} );
 
     return (

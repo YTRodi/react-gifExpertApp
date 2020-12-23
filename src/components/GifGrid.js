@@ -3,10 +3,10 @@ import { useFetchGifs } from '../hooks/useFetchGifs';
 import GifGridItem from './GifGridItem';
 
 const GifGrid = ( { category } ) => {
-  
+
     const { data:images , loading } = useFetchGifs( category );
     // data:images = le agregamos un alias a la data, en esta caso las img.
-
+    
     return (
         <>
             <h3 className="animate__animated animate__fadeInDown">{ category }</h3>
