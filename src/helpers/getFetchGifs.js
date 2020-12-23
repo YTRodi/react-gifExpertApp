@@ -17,7 +17,7 @@ export const getFetchGifs = async( category ) => {
 
     });
 
-    console.log( onlyGifs );
+    // console.log( onlyGifs );
     return onlyGifs;
 
 }
