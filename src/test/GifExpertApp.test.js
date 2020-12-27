@@ -13,6 +13,9 @@ describe('Pruebas en el componente GifExpertApp', () => {
 
     test('Debe de mostrar una lista de categorias', () => {
         
+        // Nota:
+        // Como no hay una forma de testear los estados que poseen los componentes, le pasamos un
+        // valor por defecto al mismo, para poder evaluarlo en los test.
         const categories = ['Shingeki no kyojin', 'One Piece'];
         const wrapper = shallow( <GifExpertApp defaultCategory={ categories } /> );
         
