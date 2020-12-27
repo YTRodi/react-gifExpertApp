@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
-const GifExpertApp = (  ) => {
+const GifExpertApp = ( { defaultCategory = [] } ) => {
 
     // const categoriesDefault = [ 'Kimetsu no Yaiba', 'Shingeki no kyojin', 'Made in abyss' ];
     // const [ categories, setCategories ] = useState( categoriesDefault );
 
-    const [ categories, setCategories ] = useState( [ 'Tanjiro' ] );
+    // const [ categories, setCategories ] = useState( [ 'Tanjiro' ] );
+    const [ categories, setCategories ] = useState( defaultCategory );
 
     return (
         <>
